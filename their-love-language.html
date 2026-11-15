@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <title>ReConnect | Child's Love Language Quiz</title>
+  <title>ReConnect | Love Language Profile</title>
   <style>
     * {
       box-sizing: border-box;
@@ -162,6 +162,51 @@
       font-size: 0.95em;
     }
 
+    /* Opt-in box styles below results */
+    .optin-box {
+      margin-top: 35px;
+      padding-top: 30px;
+      border-top: 2px dashed #E8DFDF;
+      text-align: center;
+    }
+
+    .optin-box h3 {
+      color: #5C3D4C;
+      font-size: 24px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    .optin-box p {
+      font-size: 17px;
+      color: #2B2628;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .email-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .email-input {
+      padding: 15px;
+      font-size: 16px;
+      border: 1px solid #E8DFDF;
+      border-radius: 6px;
+      background: #FAF6F2;
+      color: #2B2628;
+      width: 100%;
+    }
+
+    .email-input:focus {
+      outline: none;
+      border-color: #5C3D4C;
+    }
+
     .error-msg {
       color: #9E2A2B;
       text-align: center;
@@ -182,8 +227,8 @@
   <header>ReConnect</header>
 
   <section class="hero">
-    <h1>Child's Love Language Profile</h1>
-    <p>For each pair of statements, choose the one that reflects what makes your child feel most loved.</p>
+    <h1>Your Loved One's Love Language Profile</h1>
+    <p>For each pair of statements, choose the one that reflects what makes your spouse or child feel most loved.</p>
   </section>
 
   <div class="container">
@@ -194,8 +239,22 @@
     </form>
 
     <div id="results">
-      <h2>Your Child's Love Language Results</h2>
+      <h2>Your Loved One's Love Language Results</h2>
       <div id="scoresList"></div>
+
+      <!-- Email Opt-In Section -->
+      <div class="optin-box">
+        <h3>Want to Know How to Use This to Get Them Back Faster?</h3>
+        <p>
+          Now that you know their primary love language, let me show you how to use it to bring them back and help your spouse or child get over their grudge <strong>2x – 3x faster</strong>.
+        </p>
+        
+        <!-- Replace action="#" with your email provider's form endpoint -->
+        <form class="email-form" action="#" method="POST">
+          <input type="email" class="email-input" placeholder="Enter your best email address..." required>
+          <button type="submit" class="submit-btn" style="margin-top: 0;">Send Me the Reconnection Blueprint</button>
+        </form>
+      </div>
     </div>
   </div>
 
