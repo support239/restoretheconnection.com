@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ReConnect | Words of Affirmation Blueprint</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #2B2628;
+      background: #FAF6F2;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px;
+      text-align: center;
+      background: #FFFFFF;
+      font-size: 25px;
+      font-weight: bold;
+      color: #5C3D4C;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #E8DFDF;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: #5E7358;
+      color: #FFFFFF;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      max-width: 850px;
+      margin: 0 auto 15px;
+      font-size: clamp(30px, 5vw, 46px);
+      line-height: 1.15;
+      color: #5C3D4C;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto;
+      font-size: 19px;
+      color: #2B2628;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    .content-card {
+      background: #FFFFFF;
+      padding: 32px 35px;
+      margin-bottom: 24px;
+      border-radius: 8px;
+      border: 1px solid #E8DFDF;
+      box-shadow: 0 2px 6px rgba(43, 38, 40, 0.05);
+    }
+
+    .content-card h2 {
+      color: #5C3D4C;
+      font-size: 26px;
+      margin-top: 0;
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+
+    .content-card p {
+      font-size: 17.5px;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    .content-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .callout-box {
+      background: #FAF6F2;
+      border-left: 4px solid #5C3D4C;
+      padding: 20px 24px;
+      margin: 24px 0;
+      border-radius: 0 6px 6px 0;
+      font-size: 17.5px;
+    }
+
+    .highlight-rule {
+      background: #E8DFDF;
+      padding: 22px 26px;
+      border-radius: 8px;
+      margin: 24px 0;
+      text-align: center;
+      font-size: 19px;
+      font-weight: bold;
+      color: #5C3D4C;
+    }
+
+    .stage-card {
+      background: #FAF6F2;
+      border: 1px solid #E8DFDF;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+
+    .stage-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .stage-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .stage-number {
+      background: #5C3D4C;
+      color: #FFFFFF;
+      font-weight: bold;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 16px;
+    }
+
+    .stage-title {
+      font-weight: bold;
+      font-size: 19px;
+      color: #5C3D4C;
+    }
+
+    .stage-card p {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .keep-doing-tag {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #5E7358;
+      font-size: 15px;
+      letter-spacing: 0.3px;
+    }
+
+    .cta-box {
+      background: #FFFFFF;
+      padding: 36px 35px;
+      margin-top: 30px;
+      border-radius: 8px;
+      border: 2px solid #5C3D4C;
+      box-shadow: 0 4px 12px rgba(43, 38, 40, 0.08);
+    }
+
+    .cta-box h2 {
+      color: #5C3D4C;
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 18px;
+      text-align: center;
+      line-height: 1.25;
+    }
+
+    .cta-box p {
+      font-size: 17.5px;
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+
+    .cta-btn {
+      display: block;
+      width: 100%;
+      padding: 18px 30px;
+      background-color: #5E7358;
+      color: #FFFFFF;
+      font-size: 19px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 26px;
+      transition: opacity 0.2s;
+    }
+
+    .cta-btn:hover {
+      opacity: 0.92;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #5C3D4C;
+      color: #FAF6F2;
+    }
+
+    @media (max-width: 600px) {
+      .content-card, .cta-box {
+        padding: 24px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>ReConnect</header>
+
+  <section class="hero">
+    <div class="hero-badge">Primary Love Language: Words of Affirmation</div>
+    <h1>Your Reconnection Blueprint: Words of Affirmation</h1>
+    <p>How to soften their heart, dissolve resentment 2x–3x faster, and rebuild genuine trust.</p>
+  </section>
+
+  <div class="container">
+
+    <!-- Section 1: What Words of Affirmation Really Means -->
+    <div class="content-card">
+      <h2>What Their Love Language Means</h2>
+      <p>
+        If their main love language is <strong>Words of Affirmation</strong>, it means the most important thing to them is <strong>sincere, genuine compliments</strong> and spoken or written encouragement.
+      </p>
+
+      <div class="callout-box">
+        Imagine if someone’s love language was physical touch and they were slapped or physically abused… That would be extremely harsh on that individual.
+        <br><br>
+        If someone’s love language is <strong>Words of Affirmation</strong>, and they are called names, dismissed, or have their ideas downplayed—or if someone tears down their character—from their perspective, <strong>it cuts just as deep</strong>.
+      </div>
+    </div>
+
+    <!-- Section 2: The 15-Minute Daily Action Plan -->
+    <div class="content-card">
+      <h2>How to Help Them Forgive &amp; Let Go of Grudges 2x–3x Faster</h2>
+      <p>
+        Here is exactly what you need to do if you want to restore the relationship and help them move past their hurt:
+      </p>
+
+      <div class="highlight-rule">
+        A minimum of 15 minutes every single day (that is not an exaggeration), you need to plan and implement their love language.
+      </div>
+
+      <p>
+        You can write little notes that they will find around the house, give them sincere and genuine compliments throughout the day, or write them one thoughtful, heartfelt letter.
+      </p>
+      <p>
+        <strong>These things must be done consistently.</strong> And if there is an argument or a fight that day, you <em>double down</em> on their love language—literally—and implement it for <strong>at least 30 minutes that day</strong>.
+      </p>
+    </div>
+
+    <!-- Section 3: The 4 Stages -->
+    <div class="content-card">
+      <h2>The 4 Stages Your Loved One Will Go Through</h2>
+      <p>
+        When you commit to doing this every single day, your partner or loved one will walk through four predictable stages:
+      </p>
+
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-number">1</span>
+          <span class="stage-title">Suspicion &amp; Disbelief</span>
+        </div>
+        <p>
+          At first, they will think you are suspect. They will not believe you, and they will assume you are just trying to trick them or manipulate the situation.
+        </p>
+        <div class="keep-doing-tag">→ KEEP DOING IT! Every single day!</div>
+      </div>
+
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-number">2</span>
+          <span class="stage-title">Skeptical Curiosity</span>
+        </div>
+        <p>
+          They will still think you are suspect, but they will start to dip their toe into the water. They will be highly skeptical and wonder why you are doing what you’re doing—but everyone loves their love language, and everyone wants to be treated that way, so they will be curious enough to see why you are doing it.
+        </p>
+      </div>
+
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-number">3</span>
+          <span class="stage-title">Frustration Over Lost Time</span>
+        </div>
+        <p>
+          They will feel angry that you didn’t do this sooner. They will think to themselves, <em>“If they knew I liked to be treated this way, why weren’t they doing this all along?!”</em>
+        </p>
+        <div class="keep-doing-tag">→ KEEP DOING IT! Every single day!</div>
+      </div>
+
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-number">4</span>
+          <span class="stage-title">Genuine Trust &amp; Letting Go</span>
+        </div>
+        <p>
+          They will realize that you don’t have a hidden agenda—that you genuinely love them. At that point, they will recognize they have been holding onto a grudge, and they will actively seek to let it go.
+        </p>
+      </div>
+
+      <p style="margin-top: 20px;">
+        Knowing these four stages helps you stay steady while they process them. At any time, if you want to speed up how fast you move through these stages together, <strong>DOUBLE DOWN on their love language</strong> with a minimum of 30 minutes every day.
+      </p>
+    </div>
+
+    <!-- Section 4: The Missing Piece (Conation) -->
+    <div class="content-card">
+      <h2>The Biggest Hesitation People Have (And Why Love Languages Alone Aren't Enough)</h2>
+      <p>
+        The biggest problem most people have with implementing their partner’s love language is fear: they don’t want to give their partner the impression that what they did was okay. They don’t want their partner to think they can get away with hurtful behavior, that all is automatically forgiven, or that they don’t need to make any real changes.
+      </p>
+      <p>
+        People also hesitate because they wonder: <em>“What about me? When do I get to feel my love language? Why do I always have to be the one giving first, and when do I get mine filled?”</em>
+      </p>
+      <p>
+        <strong>That is NOT what the love language is for.</strong>
+      </p>
+      <p>
+        Speaking their love language is the bridge that helps them trust you again, know you have their best interest at heart, and feel safe enough to be vulnerable and reconnect with you.
+      </p>
+    </div>
+
+    <!-- Section 5: Call to Action -->
+    <div class="cta-box">
+      <h2>How to Actually Fix the Root Problems &amp; Unlock Your Relationship Superpower</h2>
+      <p>
+        If you want to actually right the wrongs, see real change, stop repeating the exact same painful cycles, and make sure you are never treated like a doormat—you must discover what <strong>your conation</strong> is, and what <strong>their conation</strong> is.
+      </p>
+      <p>
+        When you understand their natural conation and yours, you immediately see how the two of you are wired to work together—and when you align them, you unlock your <strong>relationship superpower</strong>. When you don’t, you stay stuck in your points of friction, constant clashes, and blind spots.
+      </p>
+      <p>
+        This works with absolutely anyone in <strong>60 days or less</strong>—and you will start noticing real shifts in the <strong>first couple of days</strong>, I promise. You will still need to have some honest, hard conversations with them. But pairing conation with their love language is guaranteed to heal any relationship, reveal your superpowers as a team, and show you exactly how to avoid friction points and blind spots.
+      </p>
+
+      <!-- Update the href below to match your Conation page URL -->
+      <a href="conation.html" class="cta-btn">Discover Your Conation &amp; Relationship Superpower →</a>
+    </div>
+
+  </div>
+
+  <footer>
+    ReConnect | Stronger Relationships. Less Arguing.
+  </footer>
+
+</body>
+</html>
